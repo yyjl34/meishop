@@ -1,0 +1,245 @@
+/*
+* @Author: Yuejiaqun
+* @Date:   2018-01-05 17:55:25
+* @Last Modified by:   Yuejiaqun
+* @Last Modified time: 2018-01-11 10:14:28
+*/
+@import url("base.css");
+
+@font-face {
+  font-family: 'iconfont';  /* project id 532310 */
+  src: url('http://at.alicdn.com/t/font_532310_29k0fp21k54gqfr.eot');
+  src: url('http://at.alicdn.com/t/font_532310_29k0fp21k54gqfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_532310_29k0fp21k54gqfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_532310_29k0fp21k54gqfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_532310_29k0fp21k54gqfr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+i{
+	font-style: normal;
+
+}
+body{
+	height: 22rem;
+}
+header{
+  width: 100%;
+  height: 6.33rem;
+  background: white;
+  overflow: hidden;
+  position: relative;
+}
+.top{
+	width: 10.23rem;
+	height: 0.74rem;
+	margin: 0.4rem auto 0;
+	position: relative;
+
+
+}
+.shezhi{
+	display: block;
+	width: 0.8rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0
+}
+.icon1{
+	font-size: 0.6rem;
+	color: black;
+}
+.touxiang{
+	width: 2.22rem;
+	height: 2.22rem;
+	background: white;
+	display: block;
+	border-radius: 50%;
+	margin: 1rem auto;
+}
+.touxiang img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.mlz{
+	width: 2.52rem;
+	height: 0.88rem;
+	background: black;
+	position: absolute;
+	left: 4.3rem;
+	font-size: 0.37rem;
+	text-align: center;
+	line-height: 0.88rem;
+	color: white;
+
+}
+section{
+	width: 10.23rem;
+	height: 1.68rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.s_1{
+	width: 9.49rem;
+	height: 100%;
+	margin: 0 auto;
+/* 	border-bottom: 0.02rem solid #cbcbcb; */
+	
+}
+.s1_text{
+	width: 1.8rem;
+	height: 100%;
+	font-size: 0.37rem;
+	line-height: 1.68rem;
+	text-align: center;
+	color: black;
+}
+.qbdd{
+	display: block;
+	width: 4rem;
+	height: 100%;
+	font-size: 0.2rem;
+	color: #9d9d9d;
+	line-height: 1.68rem;
+	position: relative;
+	/* border-bottom: 0.02rem solid #cbcbcb; */
+
+}
+.icon2{
+	font-size: 0.2rem;
+	color: black;
+	position: absolute;
+	right: 0;
+}
+.wode_list{
+	width: 10.23rem;
+	height: 2.3rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.dfk{
+	display: block;
+	width: 1.61rem;
+	height: 100%;
+	overflow: hidden;
+}
+.dfk_box{
+	width: 1.12rem;
+	height: 0.82rem;
+	background: white;
+	margin:0.35rem auto; 
+
+}
+.icon3{
+	font-size: 0.8rem;
+	color: black;
+	margin-left: 0.13rem;
+}
+.dfk_text{
+	width: 100%;
+	height: 0.56rem;
+	font-size: 0.3rem;
+	color: #131313;
+	line-height: 0.56rem;
+	text-align: center;
+}
+.guanyu{
+	width: 10.23rem;
+	height: 1.53rem;
+	margin: 0.1rem auto;
+	border-bottom: 0.02rem solid #cbcbcb;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.3rem;
+
+}
+.yhq{
+	width: 2.28rem;
+	height: 100%;
+	display: block;
+	font-size: 0.4rem;
+	color: black;
+	text-align:center;
+	line-height: 1.53rem; 
+
+}
+.icon5{
+	font-size: 0.36rem;
+	color: #a8a8a8;
+	margin-top: 0.52rem;
+}
+.yhq1{
+	width: 2.67rem;
+	height: 100%;
+	display: block;
+	font-size: 0.4rem;
+	color: black;
+	text-align:center;
+	line-height: 1.53rem; 
+
+}
+.yhq2{
+	width: 1.9rem;
+	height: 100%;
+	display: block;
+	font-size: 0.4rem;
+	color: black;
+	text-align:center;
+	line-height: 1.53rem; 
+
+}
+.yhq3{
+	width: 1rem;
+	height: 100%;
+	display: block;
+	font-size: 0.4rem;
+	color: black;
+	text-align:center;
+	line-height: 1.53rem; 
+
+}
+
+.tab{
+	width:100% /* 10.23rem */;
+	height: 1.7rem;
+	margin:  2rem 0.03rem 0 ;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+}
+.tab_list{
+	width: 1.1rem;
+	height: 100%;
+	display: block;
+	margin-left: 0.3rem;
+}
+
+.icon6{
+	font-size: 0.9rem;
+	color: black;
+	margin: 0 0.1rem;
+}
+.icon7{
+	font-size: 0.9rem;
+	color: #da2722;
+	margin: 0 0.1rem;
+}
+.tab_zi{
+	width: 100%;
+	height: 0.49rem;
+	font-size: 0.01rem;
+	color: #787878;
+	text-align: center;
+
+}
+#wode{
+	color: #da2722;
+}

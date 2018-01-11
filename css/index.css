@@ -1,0 +1,391 @@
+/*
+* @Author: Yuejiaqun
+* @Date:   2018-01-04 17:46:48
+* @Last Modified by:   Yuejiaqun
+* @Last Modified time: 2018-01-11 10:16:24
+*/
+@import url("base.css");
+
+@font-face {
+  font-family: 'iconfont';  /* project id 531337 */
+  src: url('http://at.alicdn.com/t/font_531337_wx0e928cv26gvi.eot');
+  src: url('http://at.alicdn.com/t/font_531337_wx0e928cv26gvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_531337_wx0e928cv26gvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_531337_wx0e928cv26gvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_531337_wx0e928cv26gvi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+i{
+	font-style: normal;
+
+}
+body{
+	height: 60rem;
+}
+.headr{
+    width: 100%;
+    height: 1.23rem;
+    overflow: hidden;
+    position: fixed;
+	top: 0;
+    left: 0;
+    z-index: 999;
+    background: white;
+
+}
+.navw{
+	margin-top:1.23rem ;
+}
+.sousuo{
+	display: block;
+	width: 9.9rem;
+	height: 1.02rem;
+	background: #f5f5f5;
+	margin: 0.21rem 0.45rem 0 0.45rem;
+	overflow: hidden;
+}
+/* .sousuo img{
+	display: block;
+	width: 0.42rem;
+	height: 0.43rem;
+	margin: 0.2rem auto ;
+
+} */
+.icon1{
+	font-size: 0.42rem;
+	margin: 0.3rem 1rem;
+	color: black;
+}
+.shuru{
+	width: 5rem;
+	height: 0.8rem;
+	background: #f5f5f5;
+	border: 0.01rem solid #f5f5f5;
+	padding-left: 2rem;
+	box-sizing: border-box;
+
+}
+.shuru:focus{
+	outline: none;
+}
+.nav{
+	width: 100%;
+	height: 1.41rem;
+
+}
+
+.nav_list{
+	width: 9.9rem;
+	height: 100%;
+	margin: 0 0.45rem;
+	overflow: hidden;
+	display: flex;
+}
+.list_zi{
+	display: block;
+	width: 2rem;
+	height: 0.61rem;
+	line-height: 0.61rem;
+	font-size: 0.39rem;
+	color: black;
+	margin-top: 0.45rem;
+}
+.nav_list .list_zi:first-child{
+	color: #d72825;
+}
+/* 列表结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 5.58rem;
+}
+.banner_box{
+	width: 9.9rem;
+	height: 100%;
+	margin: 0 0.45rem;
+	position: relative;
+}
+.banner_box li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner_box li a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.btn_box{
+	width: 1.2rem;
+	height: 0.12rem;
+/* 	background: yellow; */
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top :  auto;
+	margin-bottom :  auto;
+	left: 0;
+	right: 0;
+	margin-left :  auto;
+	margin-right :  auto;
+	margin-bottom: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+
+}
+.btn_box li{
+	width: 0.12rem;
+	height: 0.12rem;
+	background: black;
+	border-radius: 50%;
+}
+.btn_box li:hover{
+	background: #fff;
+}
+/* banner结束 */
+/* 超级大牌开始 */
+.cjdp{
+	width: 9.9rem;
+	height: 6rem;
+	margin: 0.4rem auto 0;
+	display: flex;
+}
+.cj_list{
+	width: 4.87rem;
+	height: 100%;
+	float: left;
+}
+.cjdp_list1{
+	width: 4.87rem;
+	height: 100%;
+	display: block;
+/* 	background: yellow; */
+	position: relative;
+/* 	float: left; */
+
+}
+.cjdp_list1 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.cj_text1{
+	width: 3.2rem;
+	height: 0.3rem;
+	color: black;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	position: absolute;
+	top: 0;
+	bottom:0;
+	margin-top: 0.02rem; 
+
+
+}
+.cj_text2{
+	width: 3.2rem;
+	height: 0.2rem;
+	color: #da2423;
+	font-size: 0.1rem;
+	line-height: 0.2rem;
+	position: absolute;
+	top: 0;
+	bottom:0;
+	margin-top: 1rem; 
+
+
+}
+.cjdp .cj_list:last-child{
+	margin-left: 0.3rem;
+}
+.cjdp_list2{
+	display: block;
+	width: 100%;
+	height: 3.07rem;
+}
+.rmqd{
+	width: 2.6rem;
+	height: 100%;
+	float: left;
+}
+.re_text1{
+	width: 1.75rem;
+	height: 0.73rem;
+	font-size: 0.37rem;
+	color: black;
+	text-align: center;
+	line-height: 0.73rem;
+}
+.re_text2{
+	width: 1.75rem;
+	height: 0.5rem;
+	font-size: 0.1rem;
+	color:#da2423;
+	text-align: center;
+/* 	line-height: 0.73rem; */
+}
+.cjdp_list2 img{
+	width: 2.1rem;
+	height: 2.44rem;
+	display: block;
+}
+/* 超级大牌结束 */
+/* 今日上新开始 */
+.jrsx{
+	width: 9.9rem;
+	height: 2.23rem;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+.jr-text{
+	width: 2.5rem;
+	height: 100%;
+	color: black;
+	font-size: 0.5rem;
+	line-height: 2.23rem;
+	float: left;
+
+}
+.jrsx .jr-text:last-child{
+	font-size: 0.2rem;
+}
+.list_box{
+	width: 9.9rem;
+	height: 6.59rem;
+	margin:0 auto 0.2rem;
+	position: relative;
+}
+.list_box a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.list_box img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.lt1{
+	width: 3.98rem;
+	height: 2.19rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+}
+.lt1_1{
+	width: 100%;
+	height: 0.62rem;
+	color: #fefefe;
+	font-size: 0.3rem;
+   margin-left: 0.3rem;
+	line-height: 0.62rem;
+
+}
+.lt1_2{
+	width: 100%;
+	height: 0.62rem;
+	color: #fefefe;
+	font-size: 0.09rem;
+    margin-left: 0.3rem;
+	line-height: 0.62rem;
+
+}
+/* 今日上新结束 */
+.rmpp{
+	width: 9.9rem;
+	height: 2.23rem;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+.rm-text{
+	width: 2.5rem;
+	height: 100%;
+	color: black;
+	font-size: 0.5rem;
+	line-height: 2.23rem;
+	float: left;
+
+}
+.rmpp .rm-text:last-child{
+	font-size: 0.2rem;
+}
+.ckgd{
+	display: block;
+	width: 3rem;
+	height: 100%;
+	color:#d72825;
+	font-size: 0.03rem;
+	text-align: center;
+	line-height: 2.23rem;
+	float: right;
+
+
+}
+.m_logo{
+	width: 9.9rem;
+	height: 4.54rem;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.logo1{
+	width: 3.03rem;
+	height: 2.27rem;
+	display: block;
+}
+.logo1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* tab栏开始 */
+.tab{
+	width: /* 10.5rem */100%;
+	height: 1.7rem;
+	margin: 1rem auto 0 ;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+}
+.low{
+	margin-bottom: 3rem;
+}
+.tab_list{
+	width: 1.1rem;
+	height: 100%;
+	display: block;
+	margin-left: 0.3rem;
+}
+.icon2{
+	font-size: 0.9rem;
+	color: #da2722;
+	margin: 0rem 0.1rem;
+}
+.icon3{
+	font-size: 0.9rem;
+	color: #333333;
+	margin: 0 0.1rem;
+}
+.tab_zi{
+	width: 100%;
+	height: 0.49rem;
+	font-size: 0.01rem;
+	color: #787878;
+	text-align: center;
+}
+#shouye{
+	color: #da2722;
+}
+/* tab栏结束 */
